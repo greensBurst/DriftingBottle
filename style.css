@@ -1,0 +1,143 @@
+html,body {
+    height:100%;
+}
+input::-webkit-input-placeholder{
+    color:darkgray;
+}
+.body1 {
+     background:url(bg.jpg)  no-repeat center center;
+     background-size:cover;
+     background-attachment:fixed;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    margin:0;
+}
+.body2 {
+    background:url(sea.jpg)  no-repeat center center;
+    background-size:cover;
+    background-attachment:fixed;
+    display:flex;
+    flex-direction: column;
+    margin:0;
+}
+.login {
+    background-color:rgba(255,255,255,0.7);
+    height: 300px;
+    width:500px;
+}
+.div0 {
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ocean{
+    flex:2;
+    font-family: Microsoft JhengHei Light;
+    font-size: 50px;
+}
+.div1 {
+    flex:5;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div2 {
+    flex:4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width:100%;
+}
+.div3 {
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.in {
+    height:45px;
+    width:450px;
+    border-radius: 5px;
+    color: darkgray;
+    font-size: 25px;
+    border: 1px solid #DBDBDB;
+    padding-left: 5px;
+}
+.sub {
+    height:45px;
+    width:200px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 1px solid #DBDBDB;
+}
+
+
+.top {
+    background-color:rgba(0,20,30,0.7);
+    width:100%;
+    flex:1;
+    display:flex;
+    flex-direction: row;
+    box-shadow: 0 0 10px rgba(0,0,0,1);
+}
+.logo{
+    height:100%;
+    flex:8;
+    font-family:Microsoft JhengHei Light;
+    font-size: 30px;
+    padding-left: 10px;
+    color: #46d3ff;
+}
+.me {
+    height:100%;
+    flex:1;
+    font-family: Ink Free;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    color:red;
+}
+.down {
+    display: flex;
+    flex:17;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main {
+    background-color:rgba(255,255,255,0.7);
+    height: 555px;
+    width:1000px;
+    display: flex;
+    flex-direction: row;
+}
+.part {
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.txt {
+    height:360px;
+    width:260px;
+    resize:none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family:微软雅黑 Light;
+    font-size:30px;
+    padding:20px;
+}
+.sb{
+    height:45px;
+    width:300px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: 1px solid #DBDBDB;
+    flex:3;
+}
